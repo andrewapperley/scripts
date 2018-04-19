@@ -5,6 +5,8 @@
     width: auto;
     max-width: 800px;
     margin: 20px auto;
+    border: grey solid 1px;
+    border-radius: 3px;
 }
 
 .white-popup span.clearfix {
@@ -80,6 +82,7 @@
 .hm-info ul {
     padding-left: 0;
     list-style: none;
+    margin-top: 20px;
 }
 .hm-info ul li {
     margin-top: 20px;
@@ -104,6 +107,43 @@
     margin-top: 0;
 }
 /*Obituary End*/
+
+/*Comments Start*/
+.hm-comments {
+    margin-top: 40px !important;
+}
+
+.hm-comments h4 {
+    color: #48484a;
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+}
+
+.hm-comments .hm-comments-list {
+    list-style: none;
+    overflow-y: auto;
+    max-height: 600px;
+}
+
+.hm-comments .hm-comments-list .hm-comments-list-comment {
+    
+}
+
+.hm-comments .hm-comments-list .hm-comments-list-comment .hm-comments-list-comment-info {
+    font-weight: bold;
+    font-family: "AdobeGaramondProRegular";
+    color: #48484a;
+    font-size: 15px;
+}
+
+.hm-comments .hm-comments-list .hm-comments-list-comment .hm-comments-list-comment-content {
+    font-family: "AdobeGaramondProRegular";
+    color: #48484a;
+    font-size: 15px;
+    padding: 5px;
+}
+/*Comments End*/
 
 /*Sizing Starts*/
 /*  SECTIONS  */
