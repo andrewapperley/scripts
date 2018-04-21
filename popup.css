@@ -15,6 +15,24 @@
     clear: both;
 }
 
+/*Buttons Start*/
+.dfd-button-module-wrap .smith_button .dfd-button-link .dfd-button-inner-cover .dfd-button-text-main {
+    font-size: 22px;
+}
+
+@media(max-width: 568px) {
+    .dfd-button-module-wrap .smith_button .dfd-button-link .dfd-button-inner-cover .dfd-button-text-main {
+        font-size: 13px !important;
+        padding-left: 0px !important;
+        right: 0px !important;
+    }
+    .smith_button {
+        width: 100% !important;
+        display: block !important;
+    }
+}
+/*Buttons End*/
+
 /*Titles Start*/
 .hm-titles {
     text-align: center;
@@ -41,8 +59,8 @@
 
 /*Logo Start*/
 .hm-logo {
-    width: 61px;
-    height: auto;
+    width: auto;
+    height: 61px;
     margin: 0 auto;
     position: relative;
     display: block;
@@ -127,7 +145,7 @@
 }
 
 .hm-comments .hm-comments-list .hm-comments-list-comment {
-    
+
 }
 
 .hm-comments .hm-comments-list .hm-comments-list-comment .hm-comments-list-comment-info {
