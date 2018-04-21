@@ -15,20 +15,26 @@
     clear: both;
 }
 
+/* List Item Content Start */
+.memorial-list-content {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+/* List Item Content End */
+
 /*Buttons Start*/
 .dfd-button-module-wrap .smith_button .dfd-button-link .dfd-button-inner-cover .dfd-button-text-main {
     font-size: 22px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }
-
+.smith_button.memorial-list-button {
+    width: 100% !important;
+    display: block !important;
+}
 @media(max-width: 568px) {
     .dfd-button-module-wrap .smith_button .dfd-button-link .dfd-button-inner-cover .dfd-button-text-main {
         font-size: 13px !important;
-        padding-left: 0px !important;
-        padding-right: 0px !important;
-    }
-    .smith_button {
-        width: 100% !important;
-        display: block !important;
     }
 }
 /*Buttons End*/
@@ -145,7 +151,7 @@
 }
 
 .hm-comments .hm-comments-list .hm-comments-list-comment {
-
+    
 }
 
 .hm-comments .hm-comments-list .hm-comments-list-comment .hm-comments-list-comment-info {
