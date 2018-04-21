@@ -24,7 +24,7 @@
     .dfd-button-module-wrap .smith_button .dfd-button-link .dfd-button-inner-cover .dfd-button-text-main {
         font-size: 13px !important;
         padding-left: 0px !important;
-        right: 0px !important;
+        padding-right: 0px !important;
     }
     .smith_button {
         width: 100% !important;
