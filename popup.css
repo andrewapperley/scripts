@@ -15,12 +15,38 @@
     clear: both;
 }
 
-/* List Item Content Start */
+/* List Item Start */
+
+.memorial-list-image {
+    width: 25%;
+}
+
 .memorial-list-content {
+    width: 50%;
+
     padding-left: 10px !important;
     padding-right: 10px !important;
 }
-/* List Item Content End */
+
+.memorial-list-view-button {
+    width: 25%;
+}
+
+@media(max-width: 1000px) {
+    .memorial-list-image {
+        width: 100%;
+    }
+    
+    .memorial-list-content {
+        width: 100%;
+    }
+    
+    .memorial-list-view-button {
+        width: 100%;
+    }
+}
+
+/* List Item End */
 
 /*Buttons Start*/
 .dfd-button-module-wrap .smith_button .dfd-button-link .dfd-button-inner-cover .dfd-button-text-main {
